@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: rgb(1, 1, 65);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: "roboto";
+}
+
+.choice{
+    height: 200px;
+    width:200px;
+    
+}
+.img{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    border: 5px solid black;
+    cursor: pointer;
+    
+}
+.img:hover{
+    border-color: rgb(0, 234, 255);
+    
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 5rem                                                                                    ;
+
+}
+.p1{
+    font-size: 5rem;
+    color: orangered;
+    text-align: center;
+}
+.p2{
+    font-size: 3rem;
+    text-align: center;
+    color: darkslateblue;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8rem;
+    
+}
+
+.pick{
+    font-size: 2rem;rgb(10, 40, 40);
+    background-color: 
+    color: white;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.pickMove{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.pick:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+@media only screen and (max-width:660px)and (min-width:560px) {
+    .img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        border: 5px solid black;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:560px)and (min-width:460px) {
+    .img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        border: 5px solid black;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:560px)and (min-width:460px) {
+    .img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        border: 5px solid black;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:560px)and (min-width:460px) {
+    .img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        border: 3px solid black;
+        cursor: pointer;
+    }
+}
+
+/* ======================================================================================= */
+
+@media only screen and (max-width:460px)and (min-width:360px) {
+    .img {
+        height: 85px;
+        width: 85px;
+        border-radius: 50%;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+
+    h1 {
+        background-color: rgb(1, 1, 65);
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        font-family: "roboto";
+    }
+
+    .p1 {
+        font-size: 3rem;
+        color: orangered;
+        text-align: center;
+    }
+
+    .p2 {
+        font-size: 2rem 32px;
+        text-align: center;
+        color: darkslateblue;
+    }
+    .choice {
+            height: 50px;
+            width: 50px;
+
+        }
+
+    .pick {
+        font-size: 1.7rem;
+        background-color: rgb(10, 40, 40);
+        color: white;
+        border: 1px solid black;
+        padding: 0.5rem;
+        border-radius: 4px;
+        text-align: center;
+
+
+        
+    }
+
+    /* ========================================================================================= */
+
+    @media only screen and (max-width:360px)and (min-width:260px) {
+        .img {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            border: 2px solid black;
+            cursor: pointer;
+            gap: 0.1px;
+        }
+
+        .score {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            gap: 4rem;
+            margin-top: 1px;
+
+        }
+
+        .choice {
+            height: 50px;
+            width: 50px;
+
+        }
+
+        .choices {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            margin: 5rem;
+        }
+
+        .p1 {
+            font-size: 3rem;
+
+
+            color: orangered;
+            text-align: center;
+        }
+
+        .p2 {
+            font-size: 2rem;
+            text-align: center;
+            color: darkslateblue;
+        }
+
+        .score {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem 48px;
+            margin-top: 1px;
+        }
+
+        .pick {
+            font-size: 1rem;
+            background-color: rgb(10, 40, 40);
+            color: white;
+            border: 1px solid black;
+            padding: 0.5rem;
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: rgb(1, 1, 65);
+            color: white;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: "roboto";
+        }
+    }}
+     @media only screen and (min-width:260px)and (max-width:360px) {
+        .img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            border: 2px solid black;
+            cursor: pointer;
+            gap: 0.1px;
+        }
+
+        .score {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            gap: 4rem;
+            margin-top: 1px;
+
+        }
+
+        .choice {
+            height: 50px;
+            width: 50px;
+
+        }
+
+        .choices {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            margin: 5rem;
+        }
+
+        .p1 {
+            font-size: 3rem;
+
+
+            color: orangered;
+            text-align: center;
+        }
+
+        .p2 {
+            font-size: 2rem;
+            text-align: center;
+            color: darkslateblue;
+        }
+
+        .score {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem 48px;
+            margin-top: 1px;
+        }
+
+        .pick {
+            font-size: 1rem;
+            background-color: rgb(10, 40, 40);
+            color: white;
+            border: 1px solid black;
+            padding: 0.5rem;
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: rgb(1, 1, 65);
+            color: white;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: "roboto";
+        }
+    }
